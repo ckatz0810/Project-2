@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: jura;
+    src: url(../media/fonts/Jura-VariableFont_wght.ttf);
+}
+
+body{
+    background-color: #1E1E1E;
+    max-width: 100vw;
+}
+
+.popups{
+    width: 300px;
+    position: absolute;
+}
+
+#main-screen{
+    background-color: #1E1E1E;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
+
+}
+
+#xicon{
+    animation: poppng 2s
+}
+
+@keyframes popping{
+
+    0%{
+        width: 0px;
+    }
+
+    100%{
+        width: 300px;
+    }
+}
+
+p{
+    font-family: jura;
+}
+
+#pagetitle{
+    color: white;
+    font-size: 60px;
+    background-color: #006E2F;
+    width: 600px;
+    text-align: center;
+    align-items: center;
+    padding: 20px 100px;
+    margin-top: 1%;
+    border-radius: 100px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabsflex{
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+   
+
+}
+
+.tabs{
+    color: #0F1F11;
+    background-color: #9AF7A8;
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+    padding: 20px 30px;
+    border: #727970 solid 5px;
+    font-family: jura;
+}
+
+
+.tabs:hover {
+    background-color: #516351;
+    color: #ffffff;
+}
+
+.slidedownflex{
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+   
+    
+
+}
+
+.slides{
+    color: #ffffff;
+    background-color: #39656D;
+    margin: 20px;
+    width: 310px;
+    padding: 20px 30px;
+    height: 300px;
+    font-family: jura;
+}
+
+#statsbutton{
+    color: white;
+    background-color: #006E2F;
+    filter: drop-shadow(5px 5px 1px black);
+    border: none;
+    font-family: jura;
+    padding: 10px 30px;
+    font-size: 30px;
+    display: block;
+    margin-left: auto;
+    margin-top: 15%;
+    width: fit-content;
+    z-index: inherit;
+}
+
+#statstitle{
+    color: white;
+    margin-left: 10%;
+    font-family: jura;
+
+}
+
+#statstext{
+    color: white;
+    margin-left: 10%;
+    width: 500px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#instagramicon{
+    top: 15%;
+    left: 30%;
+    transform: rotate(-20deg);
+    width: 300px;
+    animation: pop3 1s;
+}
+
+#xicon{
+    top: 55%;
+    left: 60%;
+    transform: rotate(23deg);
+    width: 300px;
+    animation: pop3 1s;
+}
+
+
+#facebookicon{
+    top: 45%;
+    left: 1%;
+    transform: rotate(15deg);
+    width: 250px;
+    animation: pop7 1s;
+}
+
+#text1{
+    top: 35%;
+    left: 71%;
+    transform: rotate(-5deg);
+    width: 400px;
+    animation: pop5 1s;
+}
+#text2{
+    top: 4%;
+    left: 3%;
+    transform: rotate(0deg);
+    width: 300px;
+    animation: pop3 1s;
+}
+
+#text3{
+    top: 45%;
+    left: 23%;
+    transform: rotate(10deg);
+    width: 600px;
+    animation: pop4 1s;
+}
+
+#text4{
+    top: 75%;
+    left: 15%;
+    transform: rotate(-20deg);
+    width: 500px;
+    animation: pop2 1s;
+}
+
+#tweet2{
+    top: 2%;
+    left: 65%;
+    transform: rotate(3deg);
+    width: 500px;
+    animation: pop2 1s;
+}
+
+#tweet1{
+    top: 71%;
+    left: 58%;
+    transform: rotate(-15deg);
+    width: 700px;
+    animation: pop 1s;
+}
+
+#instadm1{
+    top: 25%;
+    left: 0%;
+    transform: rotate(-5deg);
+    width: 800px;
+    animation: pop6 1s;
+}
+
+#instacomment1{
+    top: 0%;
+    left: 20%;
+    transform: rotate(5deg);
+    width: 700px;
+    animation: pop 1s;
+}
+
+
+
+
+
+
+
+#xicon:hover{
+    transform: scale(1.2);
+}
+
+
+@keyframes pop{
+    0%{ 
+        width: 0px
+    }
+
+    100%{
+        width: 700px;
+    }
+}
+
+@keyframes pop2{
+    0%{ 
+        width: 0px
+    }
+
+    100%{
+        width: 500px;
+    }
+}
+
+@keyframes pop3{
+    0%{ 
+        width: 0px
+    }
+
+    100%{
+        width: 300px;
+    }
+}
+
+@keyframes pop4{
+    0%{ 
+        width: 0px
+    }
+
+    100%{
+        width: 600px;
+    }
+}
+
+@keyframes pop5{
+    0%{ 
+        width: 0px
+    }
+
+    100%{
+        width: 400px;
+    }
+}
+
+@keyframes pop6{
+    0%{ 
+        width: 0px
+    }
+
+    100%{
+        width: 800px;
+    }
+}
+
+@keyframes pop7{
+    0%{ 
+        width: 0px
+    }
+
+    100%{
+        width: 250px;
+    }
+}
