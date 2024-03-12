@@ -8,6 +8,22 @@
     src: url(../media/fonts/Jura-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: mad;
+    src: url(../media/fonts/MadimiOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: bebas;
+    src: url(../media/fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: redhat;
+    src: url(../media/fonts/RedHatDisplay-VariableFont_wght.ttf);
+}
+
+
 body{
     background-color: #1E1E1E;
     max-width: 100vw;
@@ -111,7 +127,7 @@ p{
     width: 310px;
     padding: 20px 30px;
     height: 300px;
-    font-family: jura;
+    font-family: redhat;
     
 }
 
@@ -162,6 +178,7 @@ p{
     position: absolute;
     left: 66.5%;
     top: 220px;
+    height: fit-content;
 }
 
 #tab3{
@@ -189,19 +206,24 @@ p{
     width: 500px;
     position: absolute;
     top: 370px;
+    font-family: redhat;
     
 }
 
 .slidetitles{
     color: #64ffe8;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 23px;
+    font-family: jura;
+    display: block;
+    width: fit-content;
+    margin-bottom: -10px;
 }
 
 .slidetitles:hover{
     color: #6f6f6f;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 23px;
 }
 
 a{
@@ -221,6 +243,7 @@ a{
     background-color: #bdeaf3;
     border-radius: 10px;
     padding: 2px 10px;
+    font-family: jura;
 }
 #harassmenttext{
     position: absolute;
@@ -228,6 +251,7 @@ a{
     left: 4%;
     top: 360px;
     width: 400px;
+    font-family: redhat;
 }
 #harassmentimg{
     position: absolute;
@@ -244,6 +268,7 @@ a{
     background-color: #bdeaf3;
     border-radius: 10px;
     padding: 2px 10px;
+    font-family: jura;
 
 
 }
@@ -264,6 +289,7 @@ a{
     background-color: #bdeaf3;
     border-radius: 10px;
     padding: 2px 10px;
+    font-family: jura;
 }
 #flamingtext{
     position: absolute;
@@ -271,6 +297,7 @@ a{
     left: 4%;
     top: 360px;
     width: 400px;
+    font-family: redhat;
 }
 #flamingimg{
     position: absolute;
@@ -287,6 +314,7 @@ a{
     background-color: #bdeaf3;
     border-radius: 10px;
     padding: 2px 10px;
+    font-family: jura;
 
 
 }
@@ -306,6 +334,7 @@ a{
     background-color: #bdeaf3;
     border-radius: 10px;
     padding: 2px 10px;
+    font-family: jura;
 }
 #doxingtext{
     position: absolute;
@@ -313,6 +342,7 @@ a{
     left: 4%;
     top: 360px;
     width: 400px;
+    font-family: redhat;
 }
 #doxingimg{
     position: absolute;
@@ -329,6 +359,7 @@ a{
     background-color: #bdeaf3;
     border-radius: 10px;
     padding: 2px 10px;
+    font-family: jura;
 
 
 }
@@ -347,6 +378,7 @@ a{
     background-color: #bdeaf3;
     border-radius: 10px;
     padding: 2px 10px;
+    font-family: jura;
 }
 #trollingtext{
     position: absolute;
@@ -354,6 +386,7 @@ a{
     left: 4%;
     top: 360px;
     width: 400px;
+    font-family: redhat;
 }
 #trollingimg{
     position: absolute;
@@ -370,6 +403,7 @@ a{
     background-color: #bdeaf3;
     border-radius: 10px;
     padding: 2px 10px;
+    font-family: jura;
 
 
 }
@@ -389,6 +423,7 @@ a{
     background-color: #bdeaf3;
     border-radius: 10px;
     padding: 2px 10px;
+    font-family: jura;
 }
 #impersonationtext{
     position: absolute;
@@ -396,6 +431,7 @@ a{
     left: 4%;
     top: 360px;
     width: 400px;
+    font-family: redhat;
 }
 #impersonationimg{
     position: absolute;
@@ -412,6 +448,7 @@ a{
     background-color: #bdeaf3;
     border-radius: 10px;
     padding: 2px 10px;
+    font-family: jura;
 
 
 }
@@ -430,6 +467,7 @@ a{
     background-color: #bdeaf3;
     border-radius: 10px;
     padding: 2px 10px;
+    font-family: jura;
 }
 #exclusiontext{
     position: absolute;
@@ -437,6 +475,7 @@ a{
     left: 4%;
     top: 360px;
     width: 400px;
+    font-family: redhat;
 }
 #exclusionimg{
     position: absolute;
@@ -453,6 +492,7 @@ a{
     background-color: #bdeaf3;
     border-radius: 10px;
     padding: 2px 10px;
+    font-family: jura;
 
 
 }
@@ -475,6 +515,7 @@ a{
     top: 50%;
     left: 35%;
     transform: scale(0%);
+    font-family: mad;
     
 
 
