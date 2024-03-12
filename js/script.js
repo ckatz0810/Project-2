@@ -2,76 +2,143 @@
 
 $(document).ready(function() {
 
-    $("#cat-img").hide();
-    $("#happy-dog").hide();
-    $("#secret-text").hide();
-    
-
-
-    $("#doggo-img").click(function(){
-        $("#doggo-img").hide();
-        $("#cat-img").show();
-
-    });
-
-    $("#cat-img").click(function(){
-        // $("#doggo-img").show();
-        $("#cat-img").hide();
-        $("#happy-dog").show();
-
-    });
-
-    $("#happy-dog").click(function(){
-        $("#doggo-img").show();
-        $("#cat-img").hide();
-        $("#happy-dog").hide();
-
-    });
-
-    $("#toggle-text").click(function(){
-        $("#secret-text").toggle();
-
-    });
-
-    $("#change-bg-color").click(function(){
-        $("#home-screen").css("background-color","khaki");
-
-        // change the font color of the text.
-        $("#change-bg-color").css("color","white");
-
-    });
-
-    $("#secret-text").click(function(){
-        $(".main-img").addClass("animate-img");
-        
-        setTimeout(function(){
-            $(".main-img").removeClass("animate-img");
-        },2000);
-
-    });
    
-    
 
 
-/*$(".slides").hide()
+$(".slides").hide()
+
+
 
 $("#tab1").click(function(){
-    $("#slide1").slideDown();
+    $("#slide1").slideToggle();
+    $(".harassmentdiv").hide()
+    $(".doxingdiv").hide()
+    $(".trollingdiv").hide()
+    $(".exclusiondiv").hide()
+    $(".flamingdiv").hide()
+    $(".impersonationdiv").hide()
+    $("#statsdiv").hide()
+    $("#endit").removeClass("growStuff")
 });
 
 $("#tab2").click(function(){
-    $("#slide2").slideDown();
+    $("#slide2").slideToggle();
+    $("#statsdiv").hide()
+    $(".harassmentdiv").hide("slow")
+    $(".doxingdiv").hide("slow")
+    $(".trollingdiv").hide("slow")
+    $(".exclusiondiv").hide("slow")
+    $(".flamingdiv").hide("slow")
+    $(".impersonationdiv").hide("slow")
+    $("#endit").removeClass("growStuff");
 });
 
 $("#tab3").click(function(){
-    $("#slide3").slideDown();
-});*/
+    $("#slide3").slideToggle();
+    $("#statsdiv").hide()
+    $(".harassmentdiv").hide()
+    $(".doxingdiv").hide()
+    $(".trollingdiv").hide()
+    $(".exclusiondiv").hide()
+    $(".flamingdiv").hide()
+    $(".impersonationdiv").hide()
+    $("#endit").removeClass("growStuff")
+});
 
 $("#statsdiv").hide()
 
 $("#statsbutton").click(function(){
-    $("#statsdiv").show();
+    $("#statsdiv").toggle("slow");
+    $("#slide2").slideUp("fast");
+    $("#slide3").slideUp("fast");
 });
+
+$(".harassmentdiv").hide()
+$(".trollingdiv").hide()
+$(".flamingdiv").hide()
+$(".doxingdiv").hide()
+$(".exclusiondiv").hide()
+$(".impersonationdiv").hide()
+
+$("#harassment").click(function(){
+    $("#slide1").slideUp("fast");
+    $("#slide3").slideUp("fast");
+    $(".harassmentdiv").toggle("slow");
+    $(".trollingdiv").hide()
+    $(".flamingdiv").hide()
+    $(".doxingdiv").hide()
+    $(".exclusiondiv").hide()
+    $(".impersonationdiv").hide()
+});
+
+$("#impersonation").click(function(){
+    $("#slide1").slideUp("fast");
+    $("#slide3").slideUp("fast");
+    $(".impersonationdiv").toggle("slow");
+    $(".harassmentdiv").hide()
+    $(".trollingdiv").hide()
+    $(".flamingdiv").hide()
+    $(".doxingdiv").hide()
+    $(".exclusiondiv").hide()
+
+});
+
+$("#doxing").click(function(){
+    $("#slide1").slideUp("fast");
+    $("#slide3").slideUp("fast");
+    $(".doxingdiv").toggle("slow");
+    $(".harassmentdiv").hide();
+    $(".trollingdiv").hide();
+    $(".flamingdiv").hide();
+    $(".exclusiondiv").hide();
+    $(".impersonationdiv").hide();
+});
+
+$("#flaming").click(function(){
+    $("#slide1").slideUp("fast");
+    $("#slide3").slideUp("fast");
+    $(".flamingdiv").toggle("slow");
+    $(".harassmentdiv").hide()
+    $(".trollingdiv").hide()
+    $(".doxingdiv").hide()
+    $(".exclusiondiv").hide()
+    $(".impersonationdiv").hide()
+});
+
+$("#exclusion").click(function(){
+    $("#slide1").slideUp("fast");
+    $("#slide3").slideUp("fast");
+    $(".exclusiondiv").toggle("slow");
+    $(".harassmentdiv").hide()
+    $(".trollingdiv").hide()
+    $(".flamingdiv").hide()
+    $(".doxingdiv").hide()
+    $(".impersonationdiv").hide()
+});
+
+$("#trolling").click(function(){
+    $("#slide1").slideUp("fast");
+    $("#slide3").slideUp("fast");
+    $(".trollingdiv").toggle("slow");
+    $(".harassmentdiv").hide()
+    $(".flamingdiv").hide()
+    $(".doxingdiv").hide()
+    $(".exclusiondiv").hide()
+    $(".impersonationdiv").hide()
+});
+
+
+
+$("#statsbutton").click(function(){
+    $("#tab1").addClass("slideStuff")
+
+});
+
+
+
+
+
+
 
 
     $("#xicon").click(function(){
@@ -119,5 +186,18 @@ $("#statsbutton").click(function(){
     });
 
 
-
 });
+
+$("#pagetitle").click(function(){
+    $("#endit").addClass("growStuff");
+    $("#slide1").slideUp("fast");
+    $("#slide3").slideUp("fast");
+    $("#slide2").slideUp("fast");
+    $(".harassmentdiv").hide()
+    $(".flamingdiv").hide()
+    $(".doxingdiv").hide()
+    $(".exclusiondiv").hide()
+    $(".impersonationdiv").hide()
+    $("#statsdiv").hide()
+});
+

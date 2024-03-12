@@ -84,6 +84,7 @@ p{
     padding: 20px 30px;
     border: #727970 solid 5px;
     font-family: jura;
+    
 }
 
 
@@ -93,10 +94,9 @@ p{
 }
 
 .slidedownflex{
-    display: flex;
+    
     width: 100vw;
-    flex-direction: row;
-    justify-content: center;
+  
     align-items: center;
     margin-top: -40px;
    
@@ -112,6 +112,7 @@ p{
     padding: 20px 30px;
     height: 300px;
     font-family: jura;
+    
 }
 
 #statsbutton{
@@ -129,34 +130,376 @@ p{
     z-index: inherit;
 }
 
+#slide1{
+    position: absolute;
+    left: 11.5%;
+    top: 220px;
+    height: fit-content;
+}
+
+#tab1{
+    position: absolute;
+    left: 11.5vw;
+    top: 142px;
+}
+
+#slide2{
+    position: absolute;
+    left: 35%;
+    top: 220px;
+    height: fit-content;
+    width: 460px;
+}
+
+#tab2{
+    position: absolute;
+    left: 35%;
+    top: 142px;
+    width: 450px;
+}
+
+#slide3{
+    position: absolute;
+    left: 66.5%;
+    top: 220px;
+}
+
+#tab3{
+    position: absolute;
+    left: 66.5%;
+    top: 142px;
+}
+
+
 #statstitle{
-    color: white;
-    margin-left: 10%;
+    color: #001f24;
+    margin-left: 650px;
     font-family: jura;
+    position: absolute;
+    top: 300px;
+    background-color: #bdeaf3;
+    border-radius: 10px;
+    padding: 2px 10px;
 
 }
 
 #statstext{
     color: white;
-    margin-left: 10%;
+    margin-left: 650px;
     width: 500px;
+    position: absolute;
+    top: 370px;
     
+}
+
+.slidetitles{
+    color: #64ffe8;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.slidetitles:hover{
+    color: #6f6f6f;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 191, 255);
+}
+
+.one{
+    background-color: #006E2F;
+}
+
+#harassmenttitle{
+    position: absolute;
+    top:300px;
+    left: 3%;
+    color: #001f24;
+    background-color: #bdeaf3;
+    border-radius: 10px;
+    padding: 2px 10px;
+}
+#harassmenttext{
+    position: absolute;
+    color: white;
+    left: 4%;
+    top: 360px;
+    width: 400px;
+}
+#harassmentimg{
+    position: absolute;
+    width: 400px;
+    top:600px;
+    left: 7%;
+
+}
+#harassmentvidtitle{
+    position: absolute;
+    top:300px;
+    left: 69%;
+    color: #001f24;
+    background-color: #bdeaf3;
+    border-radius: 10px;
+    padding: 2px 10px;
+
+
+}
+#harassmentvid{
+    position: absolute;
+    left: 69%;
+    top: 360px;
+
+}
+
+
+
+#flamingtitle{
+    position: absolute;
+    top:300px;
+    left: 3%;
+    color: #001f24;
+    background-color: #bdeaf3;
+    border-radius: 10px;
+    padding: 2px 10px;
+}
+#flamingtext{
+    position: absolute;
+    color: white;
+    left: 4%;
+    top: 360px;
+    width: 400px;
+}
+#flamingimg{
+    position: absolute;
+    width: 500px;
+    top:600px;
+    left: 5%;
+
+}
+#flamingvidtitle{
+    position: absolute;
+    top:300px;
+    left: 69%;
+    color: #001f24;
+    background-color: #bdeaf3;
+    border-radius: 10px;
+    padding: 2px 10px;
+
+
+}
+#flamingvid{
+    position: absolute;
+    left: 69%;
+    top: 360px;
+
+}
+
+
+#doxingtitle{
+    position: absolute;
+    top:300px;
+    left: 3%;
+    color: #001f24;
+    background-color: #bdeaf3;
+    border-radius: 10px;
+    padding: 2px 10px;
+}
+#doxingtext{
+    position: absolute;
+    color: white;
+    left: 4%;
+    top: 360px;
+    width: 400px;
+}
+#doxingimg{
+    position: absolute;
+    width: 400px;
+    top:600px;
+    left: 7%;
+
+}
+#doxingvidtitle{
+    position: absolute;
+    top:300px;
+    left: 69%;
+    color: #001f24;
+    background-color: #bdeaf3;
+    border-radius: 10px;
+    padding: 2px 10px;
+
+
+}
+#doxingvid{
+    position: absolute;
+    left: 69%;
+    top: 360px;
+
+}
+
+#trollingtitle{
+    position: absolute;
+    top:300px;
+    left: 3%;
+    color: #001f24;
+    background-color: #bdeaf3;
+    border-radius: 10px;
+    padding: 2px 10px;
+}
+#trollingtext{
+    position: absolute;
+    color: white;
+    left: 4%;
+    top: 360px;
+    width: 400px;
+}
+#trollingimg{
+    position: absolute;
+    width: 450px;
+    top:600px;
+    left: 6%;
+
+}
+#trollingvidtitle{
+    position: absolute;
+    top:300px;
+    left: 69%;
+    color: #001f24;
+    background-color: #bdeaf3;
+    border-radius: 10px;
+    padding: 2px 10px;
+
+
+}
+#trollingvid{
+    position: absolute;
+    left: 69%;
+    top: 360px;
+
+}
+
+
+#impersonationtitle{
+    position: absolute;
+    top:300px;
+    left: 3%;
+    color: #001f24;
+    background-color: #bdeaf3;
+    border-radius: 10px;
+    padding: 2px 10px;
+}
+#impersonationtext{
+    position: absolute;
+    color: white;
+    left: 4%;
+    top: 360px;
+    width: 400px;
+}
+#impersonationimg{
+    position: absolute;
+    width: 500px;
+    top:600px;
+    left: 5%;
+
+}
+#impersonationvidtitle{
+    position: absolute;
+    top:300px;
+    left: 69%;
+    color: #001f24;
+    background-color: #bdeaf3;
+    border-radius: 10px;
+    padding: 2px 10px;
+
+
+}
+#impersonationvid{
+    position: absolute;
+    left: 69%;
+    top: 360px;
+
+}
+
+#exclusiontitle{
+    position: absolute;
+    top:300px;
+    left: 3%;
+    color: #001f24;
+    background-color: #bdeaf3;
+    border-radius: 10px;
+    padding: 2px 10px;
+}
+#exclusiontext{
+    position: absolute;
+    color: white;
+    left: 4%;
+    top: 360px;
+    width: 400px;
+}
+#exclusionimg{
+    position: absolute;
+    width: 500px;
+    top:600px;
+    left: 5%;
+
+}
+#exclusionvidtitle{
+    position: absolute;
+    top:300px;
+    left: 69%;
+    color: #001f24;
+    background-color: #bdeaf3;
+    border-radius: 10px;
+    padding: 2px 10px;
+
+
+}
+#exclusionvid{
+    position: absolute;
+    left: 69%;
+    top: 360px;
+
 }
 
 
 
 
 
+#endit{
+    background: linear-gradient(to right,#9AF7A8, #20acc4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: scale(0%);
+    
+
+
+}
 
 
 
+#impstats{
+    color: #64ffe8;
+    font-size: 21px;
+}
 
+#statimg1{
+    width: 350px;
+    position: absolute;
+    left: 1200px;
+    top: 300px;
+}
 
-
-
-
-
-
+#statimg2{
+    width: 350px;
+    position: absolute;
+    left: 1200px;
+    top: 590px;
+}
 
 
 
@@ -258,13 +601,48 @@ p{
 
 
 
-
+.growStuff{
+    animation: grow 2s;
+    animation-fill-mode: forwards;
+}
 
 
 
 #xicon:hover{
     transform: scale(1.2);
+    cursor: pointer;
 }
+#text1:hover{
+    transform: scale(1.2);
+}
+#text2:hover{
+    transform: scale(1.2);
+}
+#text3:hover{
+    transform: scale(1.2);
+}
+#text4:hover{
+    transform: scale(1.2);
+}
+#instagramicon:hover{
+    transform: scale(1.2);
+}
+#instadm1:hover{
+    transform: scale(1.2);
+}
+#instacomment1:hover{
+    transform: scale(1.2);
+}
+#tweet1:hover{
+    transform: scale(1.2);
+}
+#tweet2:hover{
+    transform: scale(1.2);
+}
+#facebookicon:hover{
+    transform: scale(1.2);
+}
+
 
 
 @keyframes pop{
@@ -334,5 +712,17 @@ p{
 
     100%{
         width: 250px;
+    }
+}
+
+
+@keyframes grow{
+    0%{
+        transform: scale(0%);
+
+    }
+
+    100%{
+        transform: scale(200%);
     }
 }
