@@ -185,6 +185,18 @@ $("#statsbutton").click(function(){
         $("#instacomment1").hide();
     });
 
+    $("#instadm2").click(function(){
+        $("#instadm2").hide();
+    });
+
+    $("#text6").click(function(){
+        $("#text6").hide();
+    });
+
+    $("#tweet3").click(function(){
+        $("#tweet3").hide();
+    });
+
 
 });
 

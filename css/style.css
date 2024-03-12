@@ -608,6 +608,14 @@ a{
     animation: pop2 1s;
 }
 
+#text6{
+    top: 15%;
+    left: 55%;
+    transform: rotate(-10deg);
+    width: 500px;
+    animation: pop2 1s;
+}
+
 #tweet2{
     top: 2%;
     left: 65%;
@@ -624,6 +632,14 @@ a{
     animation: pop 1s;
 }
 
+#tweet3{
+    top: 31%;
+    left: 38%;
+    transform: rotate(15deg);
+    width: 700px;
+    animation: pop 1s;
+}
+
 #instadm1{
     top: 25%;
     left: 0%;
@@ -631,6 +647,15 @@ a{
     width: 800px;
     animation: pop6 1s;
 }
+
+#instadm2{
+    top: 65%;
+    left: 5%;
+    transform: rotate(-10deg);
+    width: 800px;
+    animation: pop6 1s;
+}
+
 
 #instacomment1{
     top: 0%;
@@ -683,7 +708,15 @@ a{
 #facebookicon:hover{
     transform: scale(1.2);
 }
-
+#text6:hover{
+    transform: scale(1.2);
+}
+#tweet3:hover{
+    transform: scale(1.2);
+}
+#instadm2:hover{
+    transform: scale(1.2);
+}
 
 
 @keyframes pop{
